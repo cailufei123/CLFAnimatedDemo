@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
 
 
 
- s. source_files = 'CLFAnimated/*.{h,m}'
- s. source_files = 'CLFAnimated/*'
-s. source_files = "CLFAnimated/*.{h,m}"
-s. source_files = "CLFAnimated/*"
-  s.source_files  = "CLFAnimated", "CLFAnimated/*.{h,m}"
+ s. source_files = 'as_cailufei/*.{h,m}'
+ s. source_files = 'as_cailufei/*'
+s. source_files = "as_cailufei/*.{h,m}"
+s. source_files = "as_cailufei/*"
+  s.source_files  = "as_cailufei", "as_cailufei/*.{h,m}"
 
  s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
