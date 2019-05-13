@@ -29,8 +29,7 @@ Pod::Spec.new do |s|
   #库的地址
   s.source       = { :git => "https://github.com/cailufei123/CLFAnimatedDemo.git", :tag => s.version }
 
-#库的地址
-  s.source       = { :git => "https://github.com/cailufei123/Work.git", :tag => s.version }
+
 
  s. source_files = 'as_cailufei/*.{h,m}'
 
