@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
 
 
- s.source_files = 'AnimatedDemo/AnimatedDemo/CLFAnimated/*.{h,m}'
+ s.source_files = 'CLFAnimated/*.{h,m}'
 
 
 
