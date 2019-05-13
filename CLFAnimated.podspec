@@ -32,8 +32,9 @@ Pod::Spec.new do |s|
 
 
  s. source_files = 'CLFAnimated/*.{h,m}'
-
+ s. source_files = 'CLFAnimated/*'
 s. source_files = "CLFAnimated/*.{h,m}"
+s. source_files = "CLFAnimated/*"
 
  s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
